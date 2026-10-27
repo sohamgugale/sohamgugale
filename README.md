@@ -8,6 +8,7 @@ I build numerical software in C++ and Python: PDE solvers, finite element models
 
 | Project | What it is | Stack |
 |---|---|---|
+| [ising-hpc](https://github.com/sohamgugale/ising-hpc) | Parallel Metropolis and Wolff Monte Carlo for the 2D Ising model; bit-identical serial/OpenMP/MPI backends, validated against Onsager, 3.7× kernel speedup | C++17, OpenMP, MPI |
 | [parallel-poisson-solver](https://github.com/sohamgugale/parallel-poisson-solver) | Matrix-free conjugate gradient solver in serial, OpenMP and MPI versions; verified O(h²) convergence and a strong-scaling study | C++17, OpenMP, MPI |
 | [Options_pricing_engine](https://github.com/sohamgugale/Options_pricing_engine) | Crank-Nicolson Black-Scholes solver for European, American and barrier options, validated against closed-form and binomial prices | C++, pybind11 |
 | [cantilever-fem](https://github.com/sohamgugale/cantilever-fem) | 2D plane-stress FEM solver written from scratch, checked against beam theory, mesh convergence and Ansys | Python, NumPy |
